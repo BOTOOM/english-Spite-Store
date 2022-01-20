@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://english-spite-store.vercel.app
+
+# Sitemaps
+Sitemap: https://english-spite-store.vercel.app/sitemap.xml
