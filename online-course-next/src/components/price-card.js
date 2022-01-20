@@ -15,11 +15,13 @@ export default function PriceCard({
     points,
     url,
     showPrice,
+    descuentoHeader,
   },
 }) {
   return (
     <Card className={header ? 'active' : ''} sx={styles.pricingBox}>
       {header && <Text sx={styles.header}>{header}</Text>}
+      {descuentoHeader && <Text sx={styles.promo}>{descuentoHeader}</Text>}
       <Box>
         <Flex sx={styles.pricingHeader}>
           <Box>
@@ -167,6 +169,28 @@ const styles = {
     animation: `${fadeIn2} 0.7s linear`,
     '@media screen and (max-width: 768px)': {
       top: '15px',
+      height: 28,
+    },
+  },
+  promo: {
+    height: 38,
+    backgroundColor: '#e62719',
+    borderRadius: '30px',
+    fontWeight: 'bold',
+    fontSize: 20,
+    lineHeight: '18px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: '#FFFFFF',
+    position: 'absolute',
+    top: '-20px',
+    right: '20px',
+    letterSpacing: '-.14px',
+    px: '10px',
+    animation: `${fadeIn2} 0.7s linear`,
+    '@media screen and (max-width: 768px)': {
+      top: '-20px',
       height: 28,
     },
   },

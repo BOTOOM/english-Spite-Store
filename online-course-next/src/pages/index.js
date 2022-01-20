@@ -35,7 +35,7 @@ export default function IndexPage() {
             {/* <CtaTwo /> */}
             {/* <FAQ /> */}
             {/* <CtaOne /> */}
-            {/* <Modal /> */}
+            <Modal />
           </Layout>
         </VideoProvider>
       </StickyProvider>

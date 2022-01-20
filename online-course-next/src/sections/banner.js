@@ -7,21 +7,21 @@ import {
   Text,
   Input,
   Button,
-} from 'theme-ui';
+} from "theme-ui";
 
-import React from 'react';
+import React from "react";
 
-import VideoBtn from 'components/video-btn';
-import { FaStar } from 'react-icons/fa';
-import { IoIosSearch } from 'react-icons/io';
-import {  Link2 } from 'components/link2';
+import VideoBtn from "components/video-btn";
+import { FaStar } from "react-icons/fa";
+import { IoIosSearch } from "react-icons/io";
+import { Link2 } from "components/link2";
 
-import BannerBG from 'assets/bg.png';
+import BannerBG from "assets/bg.png";
 // import BannerBG from 'assets/banner-bg-1-1.png';
-import BannerTextLine from 'assets/banner-text-line.png';
-import BannerPattern from 'assets/banner-pattern.png';
-import BannerImage from 'assets/banner-image-1.png';
-import PartnerImage from 'assets/brands.svg';
+import BannerTextLine from "assets/banner-text-line.png";
+import BannerPattern from "assets/banner-pattern.png";
+import BannerImage from "assets/banner-little.jpg";
+import PartnerImage from "assets/brands.svg";
 
 const Banner = () => {
   return (
@@ -43,17 +43,26 @@ const Banner = () => {
                 English Spite Store <small>Academy</small>
               </Heading>
               <Text as="p">
-                Agenda tu clase.
+                English Spite Store Acamedy te acompaña en tu proceso de
+                aprender inglés, desde el nivel que te encuentres. Enseñamos con
+                métodos suizos y británicos de aprendizaje personalizado tanto
+                para niños como para adultos.
               </Text>
               <br></br>
               <Link2
-            path="https://calendly.com/englishspitestore"
-            ml={2}
-            label="Agendar clase"
-            sx={styles.headerBtn}
-            variant="buttons.primary"
-          />
-              {/* <div className="calendly-inline-widget" data-url="https://calendly.com/ediaz-ruiz" style="min-width:320px;height:630px;"></div> */}
+                path="https://forms.gle/Y8BNoGJaKJN7PXjN6"
+                ml={2}
+                label="Inscríbete"
+                // sx={styles.headerBtn}
+                variant="buttons.primary"
+              />
+              <Link2
+                path="https://www.efset.org/quick-check/"
+                ml={2}
+                label="Mide tu nivel de inglés"
+                sx={styles.headerBtn}
+                variant="buttons.primary"
+              />
               {/* <Box as="form" sx={styles.banner.form}>
                 <Box as="label" htmlFor="search" variant="styles.srOnly">
                   Search
@@ -81,11 +90,12 @@ const Banner = () => {
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.imageBox}>
               <Box sx={styles.banner.imageInner}>
-                {/* <Image src={BannerImage} alt="banner image" /> */}
-                {/* <VideoBtn path="L9jU-IIN0ng" /> */}
+                <Image src={BannerImage} alt="banner image" />
+                <VideoBtn path="gVesZJh_inU" />
               </Box>
             </Box>
           </Box>
+          
         </Flex>
       </Container>
     </Box>
@@ -95,6 +105,9 @@ const Banner = () => {
 export default Banner;
 
 const styles = {
+  headerBtn: {
+    marginLeft: 30
+  },
   banner: {
     overflowX: 'hidden',
     paddingTop: ['100px', '120px'],
@@ -107,7 +120,6 @@ const styles = {
     backgroundRepeat: 'no-repeat',
     container: {
       maxWidth: ['100%', null, null, null, null, '1240px', '1440px'],
-      maxHeight: ['20rem'],
     },
     row: {
       flexWrap: 'wrap',
@@ -136,7 +148,7 @@ const styles = {
           height: '15px',
           backgroundImage: `url(${BannerTextLine})`,
           backgroundPosition: 'center center',
-          backgroundSize: '50% 50%',
+          backgroundSize: '100% 100%',
           backgroundRepeat: 'no-repeat',
           position: 'absolute',
           bottom: '-15px',
@@ -237,8 +249,8 @@ const styles = {
       position: 'relative',
       '&:before': {
         content: '""',
-        width: '50%',
-        height: '50%',
+        width: '100%',
+        height: '100%',
         border: '2px solid #FFDC6B',
         borderRadius: '5px',
         top: '30px',
@@ -269,7 +281,7 @@ const styles = {
       img: {
         position: 'relative',
         zIndex: 9,
-        maxWidth: '20rem',
+        maxWidth: '100%',
       },
       '.videoBtn': {
         position: 'absolute',
