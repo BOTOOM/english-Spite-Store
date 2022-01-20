@@ -27,14 +27,14 @@ export default function IndexPage() {
               title="English Spite Store"
             />
             <Banner />
-            {/* <WorkFlow /> */}
             {/* <FavoriteCourse />
             <CtaThree /> */}
             {/* <PopularCourse /> */}
             <Pricing />
+            <WorkFlow />
             {/* <CtaTwo /> */}
             {/* <FAQ /> */}
-            {/* <CtaOne /> */}
+            <CtaOne />
             <Modal />
           </Layout>
         </VideoProvider>

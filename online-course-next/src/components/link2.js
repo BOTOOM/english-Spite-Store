@@ -11,7 +11,8 @@ export function NavLink({ path, label, children, ...rest }) {
 export function Link2({ path, label, children, ...rest }) {
   return (
     <NextLink href={path}>
-      <A  href={path} target='_blank' {...rest}>{children ? children : label}</A>
+      <A rel="noopener noreferrer"  href={path} target='_blank' {...rest}>{children ? children : label}</A>
+    
     </NextLink>
   );
 }

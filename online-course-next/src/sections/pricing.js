@@ -46,8 +46,8 @@ const pricingMonthlyData = [
     priceWithUnit: '$50.000/',
 
     pricePeriod: 'mes',
-    buttonText: 'Suscríbete',
-    url: 'https://www.mercadopago.com.co/checkout/v1/payment/redirect/a2ee5394-ac03-404d-baaa-f310e49b55e8/payment-option-form/?router-request-id=2f340c82-455e-4e30-b934-16bf2c9ae9a8&source=link&preference-id=585622478-5bdbe1e3-f127-4329-ac0d-291ab91c7dea&p=06e4c064b63d598fdbd076cf8f4b20f5#/',
+    buttonText: 'Reclama tu descuento',
+    url: 'https://mpago.li/1TsfLEK',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -83,8 +83,8 @@ const pricingMonthlyData = [
     priceWithUnit: '$90.000/',
     descuentoHeader: '50%',
     pricePeriod: 'mes',
-    buttonText: 'Suscríbete',
-    url: 'https://www.mercadopago.com.co/checkout/v1/payment/redirect/a2ee5394-ac03-404d-baaa-f310e49b55e8/payment-option-form/?router-request-id=2f340c82-455e-4e30-b934-16bf2c9ae9a8&source=link&preference-id=585622478-5bdbe1e3-f127-4329-ac0d-291ab91c7dea&p=06e4c064b63d598fdbd076cf8f4b20f5#/',
+    buttonText: 'Reclama tu descuento',
+    url: 'https://mpago.li/2PA6vYp',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,

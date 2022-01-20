@@ -1,18 +1,19 @@
 import { Heading, Box, Container } from 'theme-ui';
 import React from 'react';
-import { Link } from 'components/link';
+import { Link2 } from 'components/link2';
 
 const CtaOne = () => {
   return (
     <Box as="section" sx={styles.ctaBox}>
       <Container>
-        <Heading as="h3">{'Ready to learn design \n with Nia Matos'}</Heading>
-        <Link
-          path="#"
-          label="Start Learning Today"
+        <Heading as="h3">{'Consulta nuestro plan de estudios'}</Heading>
+        <Link2
+          path="/files/Programa.pdf"
+          label="Ver plan de estudios"
           sx={styles.ctaBox.button}
           variant="buttons.primary"
         />
+        
       </Container>
     </Box>
   );

@@ -7,24 +7,24 @@ import ArrowEven from 'assets/arrow-even.png';
 
 const workflowData = [
   {
-    title: 'Set disbursement Instructions',
+    title: 'Llena el formulario de inscripción',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Eres muy importante para nosotros, por lo tanto, necesitamos algunos datos sobre ti.',
   },
   {
-    title: 'Assembly retrieves funds from your account',
+    title: 'Conoce tu nivel de inglés',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Si no conoces tu nivel de inglés, realiza un corto examen de 15 minutos por parte de EFSET.',
   },
   {
-    title: 'Assembly initiates disbursement',
+    title: 'Realiza el pago de tu suscripción',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Asegura el cupo de tu inscripción realizando el pago según el plan de tu preferencia.',
   },
   {
-    title: 'Customer receives funds payment',
+    title: 'Agenda tu clase',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Agenda tu clase según tu disponibilidad.',
   },
 ];
 
@@ -34,8 +34,8 @@ const WorkFlow = () => {
       <Container>
         <BlockTitle
           sx={styles.workflow.blockTitle}
-          tagline="Whats the function"
-          heading="Let’s see how it works"
+          tagline="Como trabajar con nosotros"
+          heading="Sigue los siguientes pasos"
         />
 
         <Grid gap="50px 54px" columns={4} sx={styles.workflow.grid}>
