@@ -34,7 +34,7 @@ const WorkFlow = () => {
       <Container>
         <BlockTitle
           sx={styles.workflow.blockTitle}
-          tagline="Como trabajar con nosotros"
+          tagline="Como estudiar con nosotros"
           heading="Sigue los siguientes pasos"
         />
 

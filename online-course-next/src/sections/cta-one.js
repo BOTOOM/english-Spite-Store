@@ -4,11 +4,11 @@ import { Link2 } from 'components/link2';
 
 const CtaOne = () => {
   return (
-    <Box as="section" sx={styles.ctaBox}>
+    <Box as="section" id="syllabus" sx={styles.ctaBox}>
       <Container>
         <Heading as="h3">{'Consulta nuestro plan de estudios'}</Heading>
         <Link2
-          path="/files/Programa.pdf"
+          path="/Programa.pdf"
           label="Ver plan de estudios"
           sx={styles.ctaBox.button}
           variant="buttons.primary"
