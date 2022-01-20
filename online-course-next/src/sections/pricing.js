@@ -44,7 +44,7 @@ const pricingMonthlyData = [
     descuentoHeader: '50%',
     showPrice: true,
     priceWithUnit: '$50.000/',
-
+    oldPriceWithUnit: '$100.000/',
     pricePeriod: 'mes',
     buttonText: 'Reclama tu descuento',
     url: 'https://mpago.li/1TsfLEK',
@@ -81,6 +81,7 @@ const pricingMonthlyData = [
     name: 'Duo',
     description: 'Aprendizaje de en grupo',
     priceWithUnit: '$90.000/',
+    oldPriceWithUnit: '$180.000/',
     descuentoHeader: '50%',
     pricePeriod: 'mes',
     buttonText: 'Reclama tu descuento',

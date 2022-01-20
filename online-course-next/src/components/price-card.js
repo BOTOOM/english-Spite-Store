@@ -16,12 +16,27 @@ export default function PriceCard({
     url,
     showPrice,
     descuentoHeader,
+    oldPriceWithUnit,
   },
 }) {
   return (
     <Card className={header ? 'active' : ''} sx={styles.pricingBox}>
       {header && <Text sx={styles.header}>{header}</Text>}
       {descuentoHeader && <Text sx={styles.promo}>{descuentoHeader}</Text>}
+      {(oldPriceWithUnit) ? (
+            <>
+            <br></br>
+            <Text className="package__price" sx={styles.promoPrecio}>
+              {/* <span>Starting from</span> */}
+              <div className="price">
+                <strike>
+                {oldPriceWithUnit}
+                <sub>{pricePeriod}</sub>
+                </strike>
+              </div>
+            </Text>
+            </>
+          ) : null}
       <Box>
         <Flex sx={styles.pricingHeader}>
           <Box>
@@ -49,6 +64,7 @@ export default function PriceCard({
               </div>
             </Text>
           ) : null}
+          
         </Flex>
         <PricingList items={points} childStyle={styles.listItem} />
         <Box
@@ -207,6 +223,28 @@ const styles = {
     alignItems: 'flex-start',
     mb: [35, null, null, null, 50],
     animation: `${fadeIn} 0.9s linear`,
+  },
+  promoPrecio: {
+    height: 38,
+    // backgroundColor: '#e62719',
+    borderRadius: '30px',
+    fontWeight: 'bold',
+    fontSize: 20,
+    lineHeight: '18px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: '#ababab',
+    position: 'absolute',
+    top: '50px',
+    right: '50px',
+    letterSpacing: '-.14px',
+    px: '10px',
+    animation: `${fadeIn2} 0.7s linear`,
+    '@media screen and (max-width: 768px)': {
+      top: '-20px',
+      height: 28,
+    },
   },
   price: {
     fontWeight: 'bold',
