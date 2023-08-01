@@ -39,15 +39,15 @@ const pricingMonthlyData = [
   // },
   //Photo by RODNAE Productions from Pexels
   {
-    name: 'Individual',
-    description: 'Aprendisaje individual',
+    name: 'Básico',
+    description: 'Aprendizaje individual y de baja intensidad',
     descuentoHeader: '50%',
     showPrice: true,
-    priceWithUnit: '$50.000/',
-    oldPriceWithUnit: '$100.000/',
+    priceWithUnit: '$64.900/',
+    oldPriceWithUnit: '$129.800/',
     pricePeriod: 'mes',
     buttonText: 'Reclama tu descuento',
-    url: 'https://mpago.li/1TsfLEK',
+    url: 'https://wa.me/+573053281605?text=Hola,%20quiero%20el%20plan%20individual',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -56,7 +56,7 @@ const pricingMonthlyData = [
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Clases virtuales.',
+        text: '6 Clases virtuales. 1 hora por clase',
         isAvailable: true,
       },
       {
@@ -69,29 +69,24 @@ const pricingMonthlyData = [
         text: 'Seguimiento.',
         isAvailable: true,
       },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Informes de progreso.',
-        isAvailable: true,
-      },
+      // {
+      //   icon: <IoIosCheckmarkCircle />,
+      //   text: 'Informes de progreso.',
+      //   isAvailable: true,
+      // },
     ],
   },
   {
     header: 'Recomendado',
-    name: 'Duo',
-    description: 'Aprendizaje de en grupo',
-    priceWithUnit: '$90.000/',
-    oldPriceWithUnit: '$180.000/',
+    name: 'Intensivo',
+    description: 'Más horas de aprendizaje y más intensidad',
+    priceWithUnit: '$119.900/',
+    oldPriceWithUnit: '$239.800/',
     descuentoHeader: '50%',
     pricePeriod: 'mes',
     buttonText: 'Reclama tu descuento',
-    url: 'https://mpago.li/2PA6vYp',
+    url: 'https://wa.me/+573053281605?text=Hola,%20quiero%20el%20plan%20intensivo',
     points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Descuento por pareja.',
-        isAvailable: true,
-      },
       {
         icon: <IoIosCheckmarkCircle />,
         text: 'Agendar clases según disponibilidad.',
@@ -99,7 +94,7 @@ const pricingMonthlyData = [
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Clases virtuales.',
+        text: '13 Clases virtuales. 1 hora por clase',
         isAvailable: true,
       },
       {
@@ -112,13 +107,56 @@ const pricingMonthlyData = [
         text: 'Seguimiento.',
         isAvailable: true,
       },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Informes de progreso',
-        isAvailable: true,
-      },
+      // {
+      //   icon: <IoIosCheckmarkCircle />,
+      //   text: 'Informes de progreso.',
+      //   isAvailable: true,
+      // },
     ],
   },
+  // {
+  //   // header: 'Recomendado',
+  //   name: 'Intensivo',
+  //   description: 'Mas horas de aprendizaje',
+  //   priceWithUnit: '$90.000/',
+  //   oldPriceWithUnit: '$180.000/',
+  //   descuentoHeader: '50%',
+  //   pricePeriod: 'mes',
+  //   buttonText: 'Reclama tu descuento',
+  //   url: 'https://mpago.li/2PA6vYp',
+  //   points: [
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Descuento por pareja.',
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Agendar clases según disponibilidad.',
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Clases virtuales.',
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Material de estudio.',
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Seguimiento.',
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: 'Informes de progreso',
+  //       isAvailable: true,
+  //     },
+  //   ],
+  // },
 ];
 
 const pricingYearlyData = [

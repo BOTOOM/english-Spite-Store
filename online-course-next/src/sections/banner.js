@@ -49,13 +49,13 @@ const Banner = () => {
                 para niños como para adultos.
               </Text>
               <br></br>
-              <Link2
+              {/* <Link2
                 path="https://forms.gle/Y8BNoGJaKJN7PXjN6"
                 ml={2}
                 label="Inscríbete"
                 sx={styles.headerBtn1}
                 variant="buttons.primary"
-              />
+              /> */}
               <Link2
                 path="https://www.efset.org/quick-check/"
                 ml={2}
